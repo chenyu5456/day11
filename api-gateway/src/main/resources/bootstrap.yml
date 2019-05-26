@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    zookeeper:
+      connect-string: 47.107.133.173:2181
+      discovery:
+        register: true
+    config:
+      discovery:
+        service-id: config
+        enabled: true
+  application:
+    name: gateway

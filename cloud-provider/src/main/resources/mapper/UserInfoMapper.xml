@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boot.cloud.demo.cloudprovider.mapper.UserMapper">
+    <select id="getUserById" resultType="com.boot.cloud.demo.cloudprovider.domain.UserInfo">
+        SELECT USER_ID,USER_NAME,USER_AGE,USER_BIRTH FROM T_USER WHERE USER_ID = #{userId}
+    </select>
+</mapper>

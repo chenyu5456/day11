@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config/cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" filepath="$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider/cloud-provider.iml" filepath="$PROJECT_DIR$/cloud-provider/cloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-client/cloud-provider-client.iml" filepath="$PROJECT_DIR$/cloud-provider-client/cloud-provider-client.iml" />
+    </modules>
+  </component>
+</project>

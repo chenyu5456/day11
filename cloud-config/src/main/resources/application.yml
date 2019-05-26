@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    zookeeper:
+      connect-string: 47.107.133.173:2181
+    config:
+      server:
+        git:
+          uri: https://gitee.com/yuyi5456/cloud-config
+          username: 545641154@qq.com
+          password: yu545641154
+  rabbitmq:
+    host: 47.107.133.173
+    port: 5672
+    username: chenyu
+    password: 545641154
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
