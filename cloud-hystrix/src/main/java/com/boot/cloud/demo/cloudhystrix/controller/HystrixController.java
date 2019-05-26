@@ -51,7 +51,7 @@ public class HystrixController {
      * @param id
      * @return
      */
-    private UserVo fallback(Integer id){
+    private UserVo fallback(Integer id, int number){
         UserVo userVo = new UserVo();
         userVo.setUserName("系统繁忙，请稍后再试");
         return userVo;
