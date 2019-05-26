@@ -15,6 +15,7 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
 /**
  * @author chenyu
  * @time 2019/5/26 0:40
+ * 后置过滤器
  */
 @Component
 public class AddHanderFilter extends ZuulFilter {
